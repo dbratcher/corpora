@@ -1,0 +1,110 @@
+html, body {
+    font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;    
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#wrap {
+    min-height: 100%;
+}
+
+#main {
+    overflow:auto;
+    padding-bottom: 150px;
+}
+
+#header-box {
+    
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    background:#2A2A2A;
+    height: 100px;
+    width: 100%;
+    clear:both;
+}
+
+#header-box h2 {
+    margin: 0;
+    padding: 10px;    
+    color: #FFFFFF;
+}
+
+#header-box ul {
+    padding: 5px;
+    display: inline-block;
+}
+
+#header-box ul li {
+    list-style-type: none;    
+    float: left;
+    margin-right: 20px;
+}
+
+#header-box a {
+    color: white;
+}
+
+#url-box {
+  position: absolute;
+  left: 50%;
+  margin-top: 20px;
+  margin-left: -225px;
+  text-align:center;
+  padding: 5px;
+  width: 450px;
+  height: 75px;
+}
+
+#progress-bar {
+  position: absolute;
+  width: 300px;
+  left: 50%;
+  margin-top: 20px;
+  margin-left: -150px;
+  padding: 5px;
+}
+
+#url-box input {
+  width: 200px;
+  height: 30px;
+}
+
+#results-box {
+  position: absolute;
+  left: 50%;
+  margin-top: 80px;
+  margin-left: -250px;
+  text-align:center;
+  padding: 5px;
+  width: 500px;
+}
+
+#results-box ul {
+  list-style-type: none;
+}
+
+#results-box li {
+  padding-left: 2em;
+  text-indent: -2em;
+}
+
+#login-container {
+    border: 1px solid #CCCCCC;
+    margin: 50px auto 0 auto;
+    width: 300px;
+    background:#e5e5e5;
+    padding: 20px;
+}
+
+#login-container ul li {
+    color:white;
+    list-style-type:none;
+}
+
+#login-container button {
+    padding: 10px;
+    width: 100px;
+}
+

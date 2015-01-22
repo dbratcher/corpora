@@ -1,0 +1,17 @@
+{
+	"name": "corpora",
+	"version": "0.0.1",
+	"author": "Drew Bratcher <drewmbee@gmail.com>",
+	"dependencies": {
+		"express": "3.0.x",
+		"backbone": "0.5.x",
+		"hiredis": "0.1.x",
+		"redis": "0.6.x",
+		"underscore": "1.2.x",
+                "request": "2.1.x"
+	},
+	"engines": {
+		"node": "0.8.x",
+		"npm": "1.1.x"
+	}
+}

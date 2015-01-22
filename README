@@ -1,0 +1,10 @@
+Local Development
+
+foreman start
+open http://localhost:5000
+
+Heroku Deploy
+
+git commit -am "commit message"
+push heroku master
+open corpora.herokuapp.com
